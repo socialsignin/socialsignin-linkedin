@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.socialsignin.provider.linkedin;
+package org.socialsignin.springsocial.security;
 
-import org.socialsignin.springframework.social.security.signin.SpringSocialSecurityConnectInterceptor;
+import org.socialsignin.springsocial.security.signin.SpringSocialSecurityConnectInterceptor;
 import org.springframework.social.linkedin.api.LinkedIn;
 import org.springframework.stereotype.Component;
 

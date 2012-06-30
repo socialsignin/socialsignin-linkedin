@@ -5,11 +5,16 @@ import org.springframework.social.linkedin.api.LinkedIn;
 import org.springframework.stereotype.Service;
 
 @Service
-public class LinkedInProviderService extends AbstractProviderService<LinkedIn> {
+public class LinkedInProviderService extends AbstractProviderService<LinkedIn,LinkedInProviderConfig> {
 
-	@Override
-	public Class<LinkedIn> getApiClass() {
-		return LinkedIn.class;
+	
+
+	public LinkedInProviderService() {
+		super();
+	}
+
+	public LinkedInProviderService(LinkedInProviderConfig providerConfig) {
+		super(providerConfig);
 	}
 
 	@Override
