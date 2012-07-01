@@ -54,7 +54,6 @@ public class LinkedInProviderConfig extends AbstractProviderConfig<LinkedIn> {
 		this.linkedInClientId = linkedInClientId;
 	}
 	
-	
 
 	public LinkedInProviderConfig(String linkedInClientId,String linkedInClientSecret,String accessToken,String accessTokenSecret) {
 		super(new LinkedInTemplate(linkedInClientId,linkedInClientSecret,accessToken,accessTokenSecret));
